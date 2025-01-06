@@ -22,7 +22,7 @@ if(empty($error)){
      VALUES ('$name', '$lastName','$email')");
 
     if($sql){
-        //header("Location: index.php");
+        header("Location: index.php");
         //echo "se inserto correctamente";
     }else{
         echo "no se inserto";
